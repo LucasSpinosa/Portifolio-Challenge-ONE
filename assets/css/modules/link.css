@@ -1,18 +1,4 @@
 .link{
    color: var(--darkgrey);
-   font-weight: 500;
-   margin-right: 18px;
    text-decoration: none;
-}
-
-@media screen and (min-width: 0px){
-   .link{
-      display: none;
-   }
-}
-
-@media screen and (min-width: 1024px){
-   .link{
-      display: inline;
-   }
 }
