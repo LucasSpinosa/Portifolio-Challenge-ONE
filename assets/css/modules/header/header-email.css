@@ -1,0 +1,15 @@
+.header--email{
+   display: inline;
+}
+
+@media screen and (min-width: 0px){
+   .header--email{
+      font-weight: 400;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .header--email{
+      font-weight: 700;
+   }
+}

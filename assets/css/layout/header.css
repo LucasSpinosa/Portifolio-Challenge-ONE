@@ -1,0 +1,8 @@
+.l-header{
+   align-items: center;
+   background-color: var(--lightgrey);
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 3%;
+   padding-top: 3%;
+}
