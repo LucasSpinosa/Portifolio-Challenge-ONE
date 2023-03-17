@@ -1,0 +1,19 @@
+.exhibition{
+   display: grid;
+   padding-top: 3%;
+}
+
+@media screen and (min-width: 0px){
+   .exhibition{
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      gap: 40px
+   }
+}
+
+@media screen and (min-width: 510px){
+   .exhibition{
+      grid-template-columns: auto auto;
+      gap: 75px;
+   }
+}
