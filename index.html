@@ -31,6 +31,10 @@
       <link rel="stylesheet" href="./assets/css/layout/skills.css">
       <link rel="stylesheet" href="./assets/css/modules/exhibition.css">
       <link rel="stylesheet" href="./assets/css/modules/skill.css">
+      <link rel="stylesheet" href="./assets/css/layout/hobbies.css">
+      <link rel="stylesheet" href="./assets/css/modules/hobbies/hobby.css">
+      <link rel="stylesheet" href="./assets/css/modules/hobbies/hobby-logo.css">
+      <link rel="stylesheet" href="./assets/css/modules/hobbies/hobby-description.css">
    </head>
    <body>
       <header class="l-header container">
@@ -38,8 +42,8 @@
          <nav>
             <ul class="header--menu">
                <li><a class="header--link link" href="#aboutme">About me</a></li>
-               <li><a class="header--link link" href="#">Skills</a></li>
-               <li><a class="header--link link" href="#">Hobbies</a></li>
+               <li><a class="header--link link" href="#skills">Skills</a></li>
+               <li><a class="header--link link" href="#hobbies">Hobbies</a></li>
                <li><a class="header--link link" href="#">Education</a></li>
                <li><a class="header--link link" href="#">Projects</a></li>
                <li><a class="header--email link" href="#">lucasspinosa.software@gmail.com</a></li>
@@ -50,7 +54,7 @@
          <img src="./assets/img/photo/creator-photo.jpeg" class="introduction--image">
          <div class="introduction--content">
             <h1 class="heading text-center">Hello, my name is Lucas Spinosa and I create web pages</h1>
-            <p class="introduction--text">I study Software Engineering at University of Brasília and I'm an Oracle Next Education alumnus</p>
+            <p class="introduction--text text-center">I study Software Engineering at University of Brasília and I'm an Oracle Next Education alumnus</p>
             <nav>
                <ul class="introduction--menu">
                   <li><a class="introduction--link link" href="https://github.com/LucasSpinosa" target="_blank">GitHub&#10138;</a></li>
@@ -66,26 +70,55 @@
          </p>
          <p class="about-me--text">Among all software development areas, I like <strong>front-end</strong> the most. I love building web pages, and I'm currently studying to become better at it. Second to front-end development, I also like <strong>database development</strong>.</p>
       </section>
-      <section class="l-skills container">
+      <section class="l-skills container" id="skills">
          <h2 class="subheading text-center">Skills</h2>
          <section class="exhibition">
             <div class="skill">
-               <img src="./assets/img/icons/html5.svg" alt="HTML5 Logo" title="HTML5">
+               <img src="./assets/img/skills/html5.svg" alt="HTML5 Logo" title="HTML5">
             </div>
             <div class="skill">
-               <img src="./assets/img/icons/css3.svg" alt="CSS3 Logo" title="CSS3">
+               <img src="./assets/img/skills/css3.svg" alt="CSS3 Logo" title="CSS3">
             </div>
             <div class="skill">
-               <img src="./assets/img/icons/javascript.svg" alt="JavaScript Logo" title="JavaScript">
+               <img src="./assets/img/skills/javascript.svg" alt="JavaScript Logo" title="JavaScript">
             </div>
             <div class="skill">
-               <img src="./assets/img/icons/c.svg" alt="C Logo" title="C">
+               <img src="./assets/img/skills/c.svg" alt="C Logo" title="C">
             </div>
             <div class="skill">
-               <img src="./assets/img/icons/mysql.svg" alt="MySQL Logo" title="MySQL">
+               <img src="./assets/img/skills/mysql.svg" alt="MySQL Logo" title="MySQL">
             </div>
             <div class="skill">
-               <img src="./assets/img/icons/git.svg" alt="Git Logo" title="Git">
+               <img src="./assets/img/skills/git.svg" alt="Git Logo" title="Git">
+            </div>
+         </section>
+      </section>
+      <section class="l-hobbies container" id="hobbies">
+         <h2 class="subheading text-center">Hobbies</h2>
+         <section class="exhibition">
+            <div class="hobby">
+               <img src="./assets/img/hobbies/drawing.png" alt="Pencil and Brush" class="hobby--logo">
+               <p class="hobby--description text-center">Drawing</p>
+            </div>
+            <div class="hobby">
+               <img src="./assets/img/hobbies/dice.png" alt="Hand throwing dices" class="hobby--logo">
+               <p class="hobby--description text-center">Tabletop RPG</p>
+            </div>
+            <div class="hobby">
+               <img src="./assets/img/hobbies/book.png" alt="Open book" class="hobby--logo">
+               <p class="hobby--description text-center">Reading</p>
+            </div>
+            <div class="hobby">
+               <img src="./assets/img/hobbies/controller.png" alt="Xbox Controller" class="hobby--logo">
+               <p class="hobby--description text-center">Gaming</p>
+            </div>
+            <div class="hobby">
+               <img src="./assets/img/hobbies/headphones.png" alt="Headphones" class="hobby--logo">
+               <p class="hobby--description text-center">Listen to music</p>
+            </div>
+            <div class="hobby">
+               <img src="./assets/img/hobbies/shoes.png" alt="Walking shoes" class="hobby--logo">
+               <p class="hobby--description text-center">Walking</p>
             </div>
          </section>
       </section>
