@@ -20,17 +20,21 @@
       <link rel="stylesheet" href="./assets/css/layout/introduction.css">
       <link rel="stylesheet" href="./assets/css/modules/introduction/introduction-image.css">
       <link rel="stylesheet" href="./assets/css/modules/introduction/introduction-content.css">
+      <link rel="stylesheet" href="./assets/css/layout/text-center.css">
       <link rel="stylesheet" href="./assets/css/modules/heading.css">
       <link rel="stylesheet" href="./assets/css/modules/introduction/introduction-text.css">
       <link rel="stylesheet" href="./assets/css/modules/introduction/introduction-menu.css">
       <link rel="stylesheet" href="./assets/css/modules/introduction/introduction-link.css">
+      <link rel="stylesheet" href="./assets/css/layout/aboutme.css">
+      <link rel="stylesheet" href="./assets/css/modules/subheading.css">
+      <link rel="stylesheet" href="./assets/css/modules/about-me/about-me-text.css">
    </head>
    <body>
       <header class="l-header container">
          <p class="header--name">&#10024 Lucas Spinosa</p>
          <nav>
             <ul class="header--menu">
-               <li><a class="header--link link" href="#">About me</a></li>
+               <li><a class="header--link link" href="#aboutme">About me</a></li>
                <li><a class="header--link link" href="#">Skills</a></li>
                <li><a class="header--link link" href="#">Hobbies</a></li>
                <li><a class="header--link link" href="#">Education</a></li>
@@ -42,17 +46,22 @@
       <section class="l-introduction container">
          <img src="./assets/img/creator-photo.jpeg" class="introduction--image">
          <div class="introduction--content">
-            <h1 class="heading">Hello, my name is Lucas Spinosa and I create web pages</h1>
+            <h1 class="heading text-center">Hello, my name is Lucas Spinosa and I create web pages</h1>
             <p class="introduction--text">I study Software Engineering at University of Brasília and I'm an Oracle Next Education alumnus</p>
             <nav>
                <ul class="introduction--menu">
-                  <li><a class="introduction--link link" href="https://github.com/LucasSpinosa">GitHub</a></li>
-                  <li><a class="introduction--link link" href="linkedin.com/in/lucas-spinosa-frontend">LinkedIn</a></li>
-                  <li><a class="introduction--link link" href="#">Curriculum</a></li>
+                  <li><a class="introduction--link link" href="https://github.com/LucasSpinosa" target="_blank">GitHub&#10138;</a></li>
+                  <li><a class="introduction--link link" href="https://www.linkedin.com/in/lucas-spinosa-frontend/">LinkedIn&#10138;</a></li>
+                  <li><a class="introduction--link link" href="#">Curriculum&#10138;</a></li>
                </ul>
             </nav>
          </div>
       </section>
+      <section class="l-about-me container" id="aboutme">
+         <h2 class="subheading">About me</h2>
+         <p class="about-me--text">I'm a Software Engineering student at University of Brasília. I always liked techonology, and since I began studying programming and learned how computers and programming worked, this passion grew even more. I learned a lot about software during my studies, such as <strong>data structures, object-oriented programming, database management systems</strong> and <strong>agile methodology</strong>.
+         </p>
+         <p class="about-me--text">Among all software development areas, I like <strong>front-end</strong> the most. I love building web pages, and I'm currently studying to become better at it. Second to front-end development, I also like <strong>database development</strong>.</p>
+      </section>
    </body>
 </html>
-

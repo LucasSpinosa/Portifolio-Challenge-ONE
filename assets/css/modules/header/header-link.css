@@ -4,13 +4,13 @@
 }
 
 @media screen and (min-width: 0px){
-   .link{
+   .header--link{
       display: none;
    }
 }
 
 @media screen and (min-width: 1024px){
-   .link{
+   .header--link{
       display: inline;
    }
 }
