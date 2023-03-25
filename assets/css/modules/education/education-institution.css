@@ -1,0 +1,10 @@
+.education-institution{
+   background-color: var(--white);
+   width: 80%;
+   height: 200px;
+   max-width: 450px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 6% auto 6% auto
+}
